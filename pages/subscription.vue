@@ -22,7 +22,7 @@ async function callPayment() {
     isProcessing.value = true
 
     const result = await $fetch('/api/subscription', { method: 'POST' })
-    const targetUrl = result?.body?.info?.paymentUrl?.web
+    const targetUrl = result?.info?.paymentUrl?.web
 
     // redirect to payment page
     window.location.href = targetUrl

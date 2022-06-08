@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
   const body = await useBody(event)
 
   const res = await linePayClient.payPreapproved.send({
-    regKey: body.regkey,
+    regKey: body.regKey,
     body: {
       productName: '測試產品2',
       amount: 1,
@@ -13,5 +13,5 @@ export default defineEventHandler(async (event) => {
     }
   })
 
-  return res
+  return res.body
 })

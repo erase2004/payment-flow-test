@@ -16,13 +16,13 @@ definePageMeta({
   layout: 'single'
 })
 
-const { query } = useRoute()
-
+const regKey = useCookie('regKey')
 const isProcessing = ref(false)
 
 async function callPayment() {
   try {
     isProcessing.value = true
+    const result = await $fetch('/api/preapproved', { method: 'POST', body: { regKey: regKey.value} })
 
     const result = await $fetch('/api/preapproved', { method: 'POST', body: query })
 
