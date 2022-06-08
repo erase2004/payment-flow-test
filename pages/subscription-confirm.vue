@@ -8,6 +8,13 @@
 </code>
     </pre>
     <NuxtLink
+      to="/check-regKey"
+      class="hover:opacity-50"
+    >
+      Check regKey
+    </NuxtLink>
+    |
+    <NuxtLink
       to="/preapproved"
       class="hover:opacity-50"
     >

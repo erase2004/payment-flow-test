@@ -29,7 +29,7 @@
       to="/subscription-confirm"
       class="hover:opacity-50"
     >
-      ← Check Subscription Confirmed Response
+      ← Subscription Confirmed Response
     </NuxtLink>
   </div>
 </template>
