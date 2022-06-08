@@ -1,6 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Payment Flow Test
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Environment Variables
+
+`SITE_URL`: website URL
+
+`LINE_PAY_CHANNEL_ID`: LINE Pay Channel ID for LINE Pay API Client
+
+`LINE_PAY_CHANNEL_KEY`: LINE Pay Channel key fro LINE Pay API Client
+
+
 
 ## Setup
 
