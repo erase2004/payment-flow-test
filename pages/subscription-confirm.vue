@@ -10,7 +10,7 @@
     </button>
     <pre class="mx-auto my-4 text-left w-1/2 whitespace-pre-wrap break-words">
 <h2 class="text-xl">Repsonse Data</h2>
-<code class="text-xs">
+<code class="text-sm">
 {{ responseInfo }}
 </code>
     </pre>

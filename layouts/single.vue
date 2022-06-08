@@ -6,7 +6,7 @@
         to="/"
         class="hover:opacity-50"
       >
-        Go back to Home
+        ← Go back to Home
       </NuxtLink>
     </div>
   </div>
