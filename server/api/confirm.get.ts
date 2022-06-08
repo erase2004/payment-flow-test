@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
   })
 
   if (res.body.info.regKey) {
-    setCookie(event, 'regKey', res.body.info.regKey)
+    setCookie(event, 'subscription-confirm', JSON.stringify(res.body))
     return sendRedirect(event, "/subscription-confirm")
   }
 
