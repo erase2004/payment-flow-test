@@ -15,6 +15,13 @@
     </NuxtLink>
     |
     <NuxtLink
+      to="/expire-regKey"
+      class="hover:opacity-50"
+    >
+      Expire regKey
+    </NuxtLink>
+    |
+    <NuxtLink
       to="/preapproved"
       class="hover:opacity-50"
     >
