@@ -7,7 +7,7 @@ export default defineEventHandler(async (event) => {
     regKey: body.regKey,
     body: {
       productName: '測試產品2',
-      amount: 1,
+      amount: body.amount,
       currency: 'TWD',
       orderId: new Date().valueOf().toString()
     }
