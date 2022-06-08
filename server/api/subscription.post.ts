@@ -16,8 +16,7 @@ export default defineEventHandler(async (event) => {
             {
               name: '測試產品2',
               quantity: 1,
-              price: 1,
-              imageUrl: '~/public/images/product.jpg'
+              price: 1
             }
           ]
         }
