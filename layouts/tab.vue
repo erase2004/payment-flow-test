@@ -23,6 +23,13 @@
       >
         LINE Pay (Subscription)
       </NuxtLink>
+      |
+      <NuxtLink
+        to="/refund"
+        class="hover:opacity-50"
+      >
+        Refund
+      </NuxtLink>
     </div>
     <!-- router-view -->
     <slot></slot>
