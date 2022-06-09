@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
   const res = await linePayClient.refund.send({
     transactionId: body.transactionId,
     body: {
-      refundAmount: body.refundAmount
+      refundAmount: body.refundAmount === 0 ? undefined : body.refundAmount
     }
   })
 
