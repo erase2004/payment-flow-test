@@ -2,15 +2,15 @@
   <div>
     <h1 class="text-3xl">Pay Preapproved</h1>
     <span>
-    <label class="font-bold">
-      Amount:
-    </label>
-    <input
-      v-model="amount"
-      type="number"
-      name="amount"
-      class="text-base border-2 rounded-md mx-2 p-1.5"
-    >
+      <label class="font-bold">
+        Amount:
+      </label>
+      <input
+        v-model="amount"
+        type="number"
+        name="amount"
+        class="text-base border-2 rounded-md mx-2 p-1.5"
+      >
     </span>
     <button
       class="my-4 p-2 border-2 rounded-md bg-[#00b700] text-white hover:bg-[#005700] disabled:opacity-25 disabled:cursor-not-allowed"
