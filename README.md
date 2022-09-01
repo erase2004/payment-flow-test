@@ -1,4 +1,6 @@
 # Payment Flow Test
+A demonstration website for LINE Pay API.
+
 
 ## Environment Variables
 
@@ -8,6 +10,7 @@
 
 `LINE_PAY_CHANNEL_KEY`: LINE Pay Channel key fro LINE Pay API Client
 
+`LINE_PAY_CLIENT_MODE`: 'development' or 'production'
 
 
 ## Setup
