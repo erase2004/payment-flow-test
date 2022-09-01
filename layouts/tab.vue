@@ -30,6 +30,20 @@
       >
         Refund
       </NuxtLink>
+      |
+      <NuxtLink
+        to="/check-payment"
+        class="hover:opacity-50"
+      >
+        Check Payment Status
+      </NuxtLink>
+      |
+      <NuxtLink
+        to="/payment-detail"
+        class="hover:opacity-50"
+      >
+        Payment Details
+      </NuxtLink>
     </div>
     <!-- router-view -->
     <slot></slot>
